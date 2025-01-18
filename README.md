@@ -21,7 +21,7 @@ This project is a basic implementation of a blockchain in Python, designed to de
 ### Steps
 1. **Clone the Repository**:
    ```bash
-https://github.com/Kheria1509/Hadcoin-Blockchain.git
+    https://github.com/Kheria1509/Hadcoin-Blockchain.git
    ```
 
 2. **Navigate to the Project Directory**:

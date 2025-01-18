@@ -1,47 +1,49 @@
 # Hadcoin-Blockchain
 
-This project is a basic implementation of a blockchain in Python, designed to demonstrate key blockchain concepts such as block creation, mining, and transaction handling.
+Hadcoin is a basic implementation of a blockchain and a cryptocurrency built using Python and Flask. This project includes functionalities to create blocks, add transactions, mine new blocks, validate the blockchain, and support decentralization through multiple nodes.
 
 ---
 
 ## Features
 
-- **Block Creation**: Build new blocks to add to the blockchain.
-- **Mining**: Implement proof-of-work to mine blocks.
-- **Transaction Handling**: Manage and process transactions within the blockchain.
+- Create and mine new blocks
+- Add transactions to the blockchain
+- Validate the blockchain
+- Connect multiple nodes for decentralization
+- Replace the chain with the longest valid chain in the network
 
 ---
 
 ## Installation
 
-### Prerequisites
-- Python 3.7 or later
-- pip (Python package manager)
+## Prerequisites
 
-### Steps
-1. **Clone the Repository**:
-   ```bash
-    https://github.com/Kheria1509/Hadcoin-Blockchain.git
-   ```
+- Python 3.x
+- Flask 0.12.2: `pip install Flask==0.12.2`
+- Requests 2.18.4: `pip install requests==2.18.4`
+- Postman HTTP Client (for testing API endpoints): [Postman](https://www.getpostman.com/)
 
-2. **Navigate to the Project Directory**:
-   ```bash
-   cd blockchain
-   ```
+### Running the Main Node
 
-3. **Install the Required Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/Kheria1509/Hadcoin-Blockchain.git
+    cd Hadcoin-Blockchain
+    ```
+
+2. Install the required libraries:
+    ```sh
+    pip install Flask==0.12.2 requests==2.18.4
+    ```
+
+3. Run the main node:
+    ```sh
+    python hadcoin.py
+    ```
 
 ---
 
-## Usage
 
-To start the blockchain application, run:
-```bash
-python main.py
-```
 
 ### Example Commands
 
